@@ -1,0 +1,13 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="employee in vm.employees">
+            <td ng-repeat="(key, value) in employee">{{value}}</td>
+        </tr>
+    </tbody>
+</table>
